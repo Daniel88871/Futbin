@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bienvenida">
+
+    <fragment
+        android:id="@+id/bienvenida"
+        android:name="com.example.futbin.Bienvenida"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenida_to_seleccion_de_equipo"
+            app:destination="@id/seleccion_de_equipo" />
+    </fragment>
+    <fragment
+        android:id="@+id/seleccion_de_equipo"
+        android:name="com.example.futbin.Seleccion_de_equipo"
+        android:label="fragment_seleccion_de_equipo"
+        tools:layout="@layout/fragment_seleccion_de_equipo" >
+        <action
+            android:id="@+id/action_seleccion_de_equipo_to_seleccion_de_equipo_nacional"
+            app:destination="@id/seleccion_de_equipo_nacional" />
+    </fragment>
+    <fragment
+        android:id="@+id/seleccion_de_equipo_nacional"
+        android:name="com.example.futbin.Seleccion_de_equipo_nacional"
+        android:label="fragment_seleccion_de_equipo_nacional"
+        tools:layout="@layout/fragment_seleccion_de_equipo_nacional" >
+        <action
+            android:id="@+id/action_seleccion_de_equipo_nacional_to_registro"
+            app:destination="@id/registro" />
+    </fragment>
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.futbin.Registro"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registro_to_registro_email"
+            app:destination="@id/registro_email" />
+    </fragment>
+    <fragment
+        android:id="@+id/registro_email"
+        android:name="com.example.futbin.Registro_email"
+        android:label="fragment_registro_email"
+        tools:layout="@layout/fragment_registro_email" >
+        <action
+            android:id="@+id/action_registro_email_to_menu_principal"
+            app:destination="@id/menu_principal" />
+        <action
+            android:id="@+id/action_registro_email_to_inicio_de_sesion"
+            app:destination="@id/inicio_de_sesion" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicio_de_sesion"
+        android:name="com.example.futbin.Inicio_de_sesion"
+        android:label="fragment_inicio_de_sesion"
+        tools:layout="@layout/fragment_inicio_de_sesion" />
+    <fragment
+        android:id="@+id/menu_principal"
+        android:name="com.example.futbin.Menu_principal"
+        android:label="fragment_menu_principal"
+        tools:layout="@layout/fragment_menu_principal" >
+        <action
+            android:id="@+id/action_menu_principal_to_resultado_del_partido"
+            app:destination="@id/resultado_del_partido" />
+        <action
+            android:id="@+id/action_menu_principal_to_perfil"
+            app:destination="@id/perfil" />
+        <action
+            android:id="@+id/action_menu_principal_to_calendario"
+            app:destination="@id/calendario" />
+        <action
+            android:id="@+id/action_menu_principal_to_edicion_de_equipo"
+            app:destination="@id/edicion_de_equipo" />
+        <action
+            android:id="@+id/action_menu_principal_to_edicion_de_competicion"
+            app:destination="@id/edicion_de_competicion" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultado_del_partido"
+        android:name="com.example.futbin.Resultado_del_partido"
+        android:label="fragment_resultado_del_partido"
+        tools:layout="@layout/fragment_resultado_del_partido" />
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.futbin.Perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/calendario"
+        android:name="com.example.futbin.Calendario"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" />
+    <fragment
+        android:id="@+id/edicion_de_equipo"
+        android:name="com.example.futbin.Edicion_de_equipo"
+        android:label="fragment_edicion_de_equipo"
+        tools:layout="@layout/fragment_edicion_de_equipo" />
+    <fragment
+        android:id="@+id/edicion_de_competicion"
+        android:name="com.example.futbin.Edicion_de_competicion"
+        android:label="fragment_edicion_de_competicion"
+        tools:layout="@layout/fragment_edicion_de_competicion" />
+</navigation>
