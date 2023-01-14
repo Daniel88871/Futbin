@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/bienvenida">
+
+    <fragment
+        android:id="@+id/bienvenida"
+        android:name="com.example.futbin.Bienvenida"
+        android:label="fragment_bienvenida"
+        tools:layout="@layout/fragment_bienvenida" >
+        <action
+            android:id="@+id/action_bienvenida_to_seleccionDeEquipo"
+            app:destination="@id/seleccionDeEquipo" />
+    </fragment>
+    <fragment
+        android:id="@+id/seleccionDeEquipo"
+        android:name="com.example.futbin.SeleccionDeEquipo"
+        android:label="fragment_seleccion_de_equipo"
+        tools:layout="@layout/fragment_seleccion_de_equipo" >
+        <action
+            android:id="@+id/action_seleccionDeEquipo_to_seleccionDeSeleccion"
+            app:destination="@id/seleccionDeSeleccion" />
+        <action
+            android:id="@+id/action_seleccionDeEquipo_to_bienvenida"
+            app:destination="@id/bienvenida" />
+    </fragment>
+    <fragment
+        android:id="@+id/seleccionDeSeleccion"
+        android:name="com.example.futbin.SeleccionDeSeleccion"
+        android:label="fragment_seleccion_de_seleccion"
+        tools:layout="@layout/fragment_seleccion_de_seleccion" >
+        <action
+            android:id="@+id/action_seleccionDeSeleccion_to_registro"
+            app:destination="@id/registro" />
+        <action
+            android:id="@+id/action_seleccionDeSeleccion_to_seleccionDeEquipo"
+            app:destination="@id/seleccionDeEquipo" />
+    </fragment>
+    <fragment
+        android:id="@+id/registro"
+        android:name="com.example.futbin.Registro"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registro_to_registroEmail"
+            app:destination="@id/registroEmail" />
+        <action
+            android:id="@+id/action_registro_to_seleccionDeSeleccion"
+            app:destination="@id/seleccionDeSeleccion" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroEmail"
+        android:name="com.example.futbin.RegistroEmail"
+        android:label="fragment_registro_email"
+        tools:layout="@layout/fragment_registro_email" >
+        <action
+            android:id="@+id/action_registroEmail_to_inicioDeSesion"
+            app:destination="@id/inicioDeSesion" />
+        <action
+            android:id="@+id/action_registroEmail_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_registroEmail_to_registro"
+            app:destination="@id/registro" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicioDeSesion"
+        android:name="com.example.futbin.ui.login.InicioDeSesion"
+        android:label="fragment_inicio_de_sesion"
+        tools:layout="@layout/fragment_inicio_de_sesion" >
+        <action
+            android:id="@+id/action_inicioDeSesion_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_inicioDeSesion_to_registroEmail"
+            app:destination="@id/registroEmail" />
+    </fragment>
+    <fragment
+        android:id="@+id/menu"
+        android:name="com.example.futbin.Menu"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menu_to_resultadoPartido"
+            app:destination="@id/resultadoPartido" />
+        <action
+            android:id="@+id/action_menu_to_perfil"
+            app:destination="@id/perfil" />
+        <action
+            android:id="@+id/action_menu_to_calendario"
+            app:destination="@id/calendario" />
+        <action
+            android:id="@+id/action_menu_to_noticia"
+            app:destination="@id/noticia" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoPartido"
+        android:name="com.example.futbin.ResultadoPartido"
+        android:label="fragment_resultado_partido"
+        tools:layout="@layout/fragment_resultado_partido" >
+        <action
+            android:id="@+id/action_resultadoPartido_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfil"
+        android:name="com.example.futbin.Perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfil_to_menu"
+            app:destination="@id/menu" />
+        <action
+            android:id="@+id/action_perfil_to_edicionEquipo"
+            app:destination="@id/edicionEquipo" />
+        <action
+            android:id="@+id/action_perfil_to_edicionSeleccion"
+            app:destination="@id/edicionSeleccion" />
+    </fragment>
+    <fragment
+        android:id="@+id/calendario"
+        android:name="com.example.futbin.Calendario"
+        android:label="fragment_calendario"
+        tools:layout="@layout/fragment_calendario" >
+        <action
+            android:id="@+id/action_calendario_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/edicionEquipo"
+        android:name="com.example.futbin.EdicionEquipo"
+        android:label="fragment_edicion_equipo"
+        tools:layout="@layout/fragment_edicion_equipo" >
+        <action
+            android:id="@+id/action_edicionEquipo_to_perfil"
+            app:destination="@id/perfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/edicionSeleccion"
+        android:name="com.example.futbin.EdicionSeleccion"
+        android:label="fragment_edicion_seleccion"
+        tools:layout="@layout/fragment_edicion_seleccion" >
+        <action
+            android:id="@+id/action_edicionSeleccion_to_perfil"
+            app:destination="@id/perfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticia"
+        android:name="com.example.futbin.Noticia"
+        android:label="fragment_noticia"
+        tools:layout="@layout/fragment_noticia" >
+        <action
+            android:id="@+id/action_noticia_to_menu"
+            app:destination="@id/menu" />
+    </fragment>
+</navigation>
