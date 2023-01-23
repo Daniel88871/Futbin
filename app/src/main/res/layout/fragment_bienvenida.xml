@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/ImagenBienvenida"
-        android:layout_width="130dp"
-        android:layout_height="190dp"
+        android:layout_width="140dp"
+        android:layout_height="200dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/logogrande"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,15 +18,14 @@
 
     <TextView
         android:id="@+id/texto1"
-        android:layout_width="205dp"
+        android:layout_width="220dp"
         android:layout_height="28dp"
         android:layout_marginTop="28dp"
         android:text="¡Bienvenido a Futbin!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="18dp"
+        android:textSize="22dp"
         android:textStyle="bold"
-        android:fontFamily="inter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,13 +33,13 @@
 
     <TextView
         android:id="@+id/texto2"
-        android:layout_width="241dp"
+        android:layout_width="220dp"
         android:layout_height="55dp"
         android:layout_marginTop="32dp"
         android:text="¡A continuación elegirás tu equipo favorito junto a tu selección nacional favorita!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="13dp"
+        android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -49,13 +48,13 @@
 
     <TextView
         android:id="@+id/texto3"
-        android:layout_width="270dp"
+        android:layout_width="275dp"
         android:layout_height="19dp"
         android:layout_marginTop="52dp"
         android:text="Pulsa el botón “Siguiente” para continuar"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="13dp"
+        android:textSize="15dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
