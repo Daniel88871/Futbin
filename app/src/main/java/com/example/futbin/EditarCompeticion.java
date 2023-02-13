@@ -13,9 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class SeleccionDeEquipo extends Fragment {
+public class EditarCompeticion extends Fragment {
 
-    Button botonBarça;
+    Button botonEscogercompeticion;
     NavController navController;
 
     @Override
@@ -27,7 +27,7 @@ public class SeleccionDeEquipo extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_seleccion_de_equipo, container, false);
+        return inflater.inflate(R.layout.fragment_editar_competicion, container, false);
     }
 
     @Override
@@ -36,12 +36,12 @@ public class SeleccionDeEquipo extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonBarça = view.findViewById(R.id.BotonSiguiente);
+        botonEscogercompeticion = view.findViewById(R.id.BotonSiguiente);
 
-        botonBarça.setOnClickListener(new View.OnClickListener() {
+        botonEscogercompeticion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.action_seleccionDeEquipo_to_seleccionDeSeleccion);
+                navController.navigate(R.id.action_editarCompeticion_to_perfil);
             }
         });
     }

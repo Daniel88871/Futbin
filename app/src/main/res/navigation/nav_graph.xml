@@ -22,9 +22,6 @@
         <action
             android:id="@+id/action_seleccionDeEquipo_to_seleccionDeSeleccion"
             app:destination="@id/seleccionDeSeleccion" />
-        <action
-            android:id="@+id/action_seleccionDeEquipo_to_bienvenida"
-            app:destination="@id/bienvenida" />
     </fragment>
     <fragment
         android:id="@+id/seleccionDeSeleccion"
@@ -34,9 +31,6 @@
         <action
             android:id="@+id/action_seleccionDeSeleccion_to_registro"
             app:destination="@id/registro" />
-        <action
-            android:id="@+id/action_seleccionDeSeleccion_to_seleccionDeEquipo"
-            app:destination="@id/seleccionDeEquipo" />
     </fragment>
     <fragment
         android:id="@+id/registro"
@@ -46,9 +40,6 @@
         <action
             android:id="@+id/action_registro_to_registroEmail"
             app:destination="@id/registroEmail" />
-        <action
-            android:id="@+id/action_registro_to_seleccionDeSeleccion"
-            app:destination="@id/seleccionDeSeleccion" />
     </fragment>
     <fragment
         android:id="@+id/registroEmail"
@@ -99,11 +90,7 @@
         android:id="@+id/resultadoPartido"
         android:name="com.example.futbin.ResultadoPartido"
         android:label="fragment_resultado_partido"
-        tools:layout="@layout/fragment_resultado_partido" >
-        <action
-            android:id="@+id/action_resultadoPartido_to_menu"
-            app:destination="@id/menu" />
-    </fragment>
+        tools:layout="@layout/fragment_resultado_partido" />
     <fragment
         android:id="@+id/perfil"
         android:name="com.example.futbin.Perfil"
@@ -118,16 +105,15 @@
         <action
             android:id="@+id/action_perfil_to_edicionSeleccion"
             app:destination="@id/edicionSeleccion" />
+        <action
+            android:id="@+id/action_perfil_to_editarCompeticion"
+            app:destination="@id/editarCompeticion" />
     </fragment>
     <fragment
         android:id="@+id/calendario"
         android:name="com.example.futbin.Calendario"
         android:label="fragment_calendario"
-        tools:layout="@layout/fragment_calendario" >
-        <action
-            android:id="@+id/action_calendario_to_menu"
-            app:destination="@id/menu" />
-    </fragment>
+        tools:layout="@layout/fragment_calendario" />
     <fragment
         android:id="@+id/edicionEquipo"
         android:name="com.example.futbin.EdicionEquipo"
@@ -154,5 +140,14 @@
         <action
             android:id="@+id/action_noticia_to_menu"
             app:destination="@id/menu" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarCompeticion"
+        android:name="com.example.futbin.EditarCompeticion"
+        android:label="fragment_editar_competicion"
+        tools:layout="@layout/fragment_editar_competicion" >
+        <action
+            android:id="@+id/action_editarCompeticion_to_perfil"
+            app:destination="@id/perfil" />
     </fragment>
 </navigation>
