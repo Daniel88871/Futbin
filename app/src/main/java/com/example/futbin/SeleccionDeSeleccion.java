@@ -36,7 +36,7 @@ public class SeleccionDeSeleccion extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonEspaña = view.findViewById(R.id.BotonSiguiente);
+        botonEspaña = view.findViewById(R.id.botonEspaña);
 
         botonEspaña.setOnClickListener(new View.OnClickListener() {
             @Override

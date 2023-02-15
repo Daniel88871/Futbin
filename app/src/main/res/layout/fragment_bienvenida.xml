@@ -73,8 +73,11 @@
     <Button
         android:id="@+id/BotonSiguiente"
         android:layout_width="280dp"
-        android:layout_height="56dp"
+        android:layout_height="50dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#1F9900"
         android:text="Siguiente"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

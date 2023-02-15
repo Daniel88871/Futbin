@@ -33,55 +33,54 @@
 
     <Button
         android:id="@+id/BotonEmail"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginTop="44dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#FF5555"
         android:text="Continuar con Google"
+        android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView44"
-        android:background="#FF5555"
-        />
-
-    <ImageView
-        android:id="@+id/imageView88"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/correo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/BotonEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/textView44" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#1F9900"
         android:text="Continuar con email"
+        android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BotonEmail" />
 
-
-
     <Button
         android:id="@+id/button2"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="#487BFF"
         android:text="Continuar con Facebook"
+        android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
         android:layout_marginTop="16dp"
+        android:background="@drawable/boton_redondeado"
+        android:backgroundTint="@color/black"
         android:text="Continuar con Apple"
+        android:textColor="@color/white"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
