@@ -36,7 +36,7 @@ public class Registro extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonEmail = view.findViewById(R.id.BotonEmail);
+        botonEmail = view.findViewById(R.id.botonEmail);
 
         botonEmail.setOnClickListener(new View.OnClickListener() {
             @Override

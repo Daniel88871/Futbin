@@ -28,7 +28,7 @@ public class RegistroEmail extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bienvenida, container, false);
+        return inflater.inflate(R.layout.fragment_registro_email, container, false);
     }
 
     @Override
@@ -37,14 +37,14 @@ public class RegistroEmail extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonIniciar = view.findViewById(R.id.BotonSiguiente);
+        botonIniciar = view.findViewById(R.id.botonIniciarSesion);
 
-        botonRegistrarse = view.findViewById(R.id.BotonSiguiente);
+        botonRegistrarse = view.findViewById(R.id.botonRegistrarse);
 
         botonIniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.action_registroEmail_to_inicioDeSesion);
+                navController.navigate(R.id.action_registroEmail_to_iniciodeSesion);
             }
         });
 

@@ -1,14 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Calendario">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Calendario de partidos"
+        android:textColor="#1F9900"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView56" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Partidos de Octubre de 2022"
+        android:textColor="#1F9900"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView88" />
+
+    <ImageView
+        android:id="@+id/calendar"
+        android:layout_width="337dp"
+        android:layout_height="462dp"
+        android:background="@drawable/calendario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView89"
+        android:layout_width="24dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="404dp"
+        android:src="@drawable/barcelona"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView90"
+        android:layout_width="21dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/realmadrid"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView89" />
+
+    <ImageView
+        android:id="@+id/imageView91"
+        android:layout_width="18dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="402dp"
+        android:src="@drawable/valencia"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="24dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="2dp"
+        android:src="@drawable/celta"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView91" />
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="334dp"
+        android:src="@drawable/betis"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView94"
+        android:layout_width="36dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/sevilla"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView93" />
+
+    <ImageView
+        android:id="@+id/imageView95"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="332dp"
+        android:src="@drawable/osasuna"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView96"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/espanyol"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView95" />
+
+    <ImageView
+        android:id="@+id/imageView97"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="260dp"
+        android:src="@drawable/cadiz"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView98"
+        android:layout_width="33dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/atletico"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView97" />
+
+    <ImageView
+        android:id="@+id/imageView99"
+        android:layout_width="27dp"
+        android:layout_height="23dp"
+        android:layout_marginBottom="260dp"
+        android:src="@drawable/united"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView100"
+        android:layout_width="21dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/leicester"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView99" />
+
+    <ImageView
+        android:id="@+id/imageView101"
+        android:layout_width="23dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="192dp"
+        android:src="@drawable/espana"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView102"
+        android:layout_width="23dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/italia"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView101" />
+
+    <ImageView
+        android:id="@+id/imageView103"
+        android:layout_width="23dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/eibar"
+        app:layout_constraintBottom_toBottomOf="@+id/calendar"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.799"
+        app:layout_constraintStart_toStartOf="@+id/calendar" />
+
+    <ImageView
+        android:id="@+id/imageView104"
+        android:layout_width="20dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="1dp"
+        android:src="@drawable/alaves"
+        app:layout_constraintEnd_toEndOf="@+id/calendar"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="@+id/calendar"
+        app:layout_constraintTop_toBottomOf="@+id/imageView103" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

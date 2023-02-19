@@ -47,26 +47,14 @@
         android:label="fragment_registro_email"
         tools:layout="@layout/fragment_registro_email" >
         <action
-            android:id="@+id/action_registroEmail_to_inicioDeSesion"
-            app:destination="@id/inicioDeSesion" />
-        <action
             android:id="@+id/action_registroEmail_to_menu"
             app:destination="@id/menu" />
         <action
             android:id="@+id/action_registroEmail_to_registro"
             app:destination="@id/registro" />
-    </fragment>
-    <fragment
-        android:id="@+id/inicioDeSesion"
-        android:name="com.example.futbin.ui.login.InicioDeSesion"
-        android:label="fragment_inicio_de_sesion"
-        tools:layout="@layout/fragment_inicio_de_sesion" >
         <action
-            android:id="@+id/action_inicioDeSesion_to_menu"
-            app:destination="@id/menu" />
-        <action
-            android:id="@+id/action_inicioDeSesion_to_registroEmail"
-            app:destination="@id/registroEmail" />
+            android:id="@+id/action_registroEmail_to_iniciodeSesion"
+            app:destination="@id/iniciodeSesion" />
     </fragment>
     <fragment
         android:id="@+id/menu"
@@ -149,5 +137,14 @@
         <action
             android:id="@+id/action_editarCompeticion_to_perfil"
             app:destination="@id/perfil" />
+    </fragment>
+    <fragment
+        android:id="@+id/iniciodeSesion"
+        android:name="com.example.futbin.IniciodeSesion"
+        android:label="fragment_iniciode_sesion"
+        tools:layout="@layout/fragment_iniciode_sesion" >
+        <action
+            android:id="@+id/action_iniciodeSesion_to_menu"
+            app:destination="@id/menu" />
     </fragment>
 </navigation>

@@ -34,7 +34,7 @@
     <TextView
         android:id="@+id/texto2"
         android:layout_width="220dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginTop="32dp"
         android:text="¡A continuación elegirás tu equipo favorito junto a tu selección nacional favorita!"
         android:textAlignment="center"
