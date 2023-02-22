@@ -8,12 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView87"
-        android:layout_width="139dp"
-        android:layout_height="184dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="140dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/logogrande"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +24,7 @@
         android:text="¡Registrate para sentir de cerca a tus equipos favoritos!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,28 +32,28 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="44dp"
         android:background="@drawable/boton_redondeado"
         android:backgroundTint="#FF5555"
         android:text="Continuar con Google"
         android:textColor="@color/white"
-        android:textSize="12sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView44" />
 
     <Button
         android:id="@+id/botonEmail"
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/boton_redondeado"
         android:backgroundTint="#1F9900"
         android:text="Continuar con email"
         android:textColor="@color/white"
-        android:textSize="12sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:icon="@drawable/correo"
@@ -63,27 +62,27 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/boton_redondeado"
         android:backgroundTint="#487BFF"
         android:text="Continuar con Facebook"
         android:textColor="@color/white"
-        android:textSize="12sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonEmail" />
 
     <Button
-        android:layout_width="280dp"
+        android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/boton_redondeado"
         android:backgroundTint="@color/black"
         android:text="Continuar con Apple"
         android:textColor="@color/white"
-        android:textSize="12sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />

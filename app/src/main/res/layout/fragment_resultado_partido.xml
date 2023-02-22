@@ -25,7 +25,7 @@
             android:layout_width="67dp"
             android:layout_height="67dp"
             android:layout_marginStart="45dp"
-            android:background="@drawable/barcelona"
+            android:src="@drawable/barcelona"
             app:layout_constraintBottom_toBottomOf="@+id/imageView105"
             app:layout_constraintStart_toStartOf="@+id/imageView105"
             app:layout_constraintTop_toTopOf="parent"
@@ -310,5 +310,247 @@
             app:layout_constraintHorizontal_bias="0.858"
             app:layout_constraintStart_toStartOf="@+id/imageView156"
             app:layout_constraintTop_toBottomOf="@+id/imageView156" />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="21dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="10dp"
+            android:text="33'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView148"
+            app:layout_constraintStart_toStartOf="@+id/imageView147"
+            app:layout_constraintTop_toBottomOf="@+id/imageView147" />
+
+        <ImageView
+            android:id="@+id/imageView157"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/balon"
+            app:layout_constraintBottom_toBottomOf="@+id/textView92"
+            app:layout_constraintStart_toEndOf="@+id/textView92"
+            app:layout_constraintTop_toTopOf="@+id/textView92" />
+
+        <TextView
+            android:id="@+id/textView93"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Aubameyang"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView157"
+            app:layout_constraintStart_toEndOf="@+id/imageView157"
+            app:layout_constraintTop_toTopOf="@+id/imageView157" />
+
+        <TextView
+            android:id="@+id/textView94"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="29'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView149"
+            app:layout_constraintEnd_toEndOf="@+id/imageView148"
+            app:layout_constraintTop_toBottomOf="@+id/imageView148" />
+
+        <ImageView
+            android:id="@+id/imageView158"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/cambio"
+            app:layout_constraintBottom_toBottomOf="@+id/textView94"
+            app:layout_constraintEnd_toStartOf="@+id/textView94"
+            app:layout_constraintTop_toTopOf="@+id/textView94" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Lucas Vázquez"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView158"
+            app:layout_constraintEnd_toStartOf="@+id/imageView158"
+            app:layout_constraintTop_toBottomOf="@+id/imageView148" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Dani Carvajal"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView149"
+            app:layout_constraintEnd_toStartOf="@+id/imageView158"
+            app:layout_constraintTop_toBottomOf="@+id/textView95"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="21'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView150"
+            app:layout_constraintEnd_toEndOf="@+id/imageView149"
+            app:layout_constraintTop_toBottomOf="@+id/imageView149" />
+
+        <ImageView
+            android:id="@+id/imageView159"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/amarilla"
+            app:layout_constraintBottom_toBottomOf="@+id/textView97"
+            app:layout_constraintEnd_toStartOf="@+id/textView97"
+            app:layout_constraintTop_toTopOf="@+id/textView97" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Éder Militão"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView159"
+            app:layout_constraintEnd_toStartOf="@+id/imageView159"
+            app:layout_constraintTop_toTopOf="@+id/imageView159" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="14'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView151"
+            app:layout_constraintStart_toStartOf="@+id/imageView150"
+            app:layout_constraintTop_toBottomOf="@+id/imageView150" />
+
+        <ImageView
+            android:id="@+id/imageView160"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/amarilla"
+            app:layout_constraintBottom_toBottomOf="@+id/textView99"
+            app:layout_constraintStart_toEndOf="@+id/textView99"
+            app:layout_constraintTop_toTopOf="@+id/textView99"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Frenkie De Jong"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView160"
+            app:layout_constraintStart_toEndOf="@+id/imageView160"
+            app:layout_constraintTop_toTopOf="@+id/imageView160" />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:text="7'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView152"
+            app:layout_constraintStart_toStartOf="@+id/imageView151"
+            app:layout_constraintTop_toBottomOf="@+id/imageView151" />
+
+        <ImageView
+            android:id="@+id/imageView161"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/balon"
+            app:layout_constraintBottom_toBottomOf="@+id/textView101"
+            app:layout_constraintStart_toEndOf="@+id/textView101"
+            app:layout_constraintTop_toTopOf="@+id/textView101" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Araujo"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView161"
+            app:layout_constraintStart_toEndOf="@+id/imageView161"
+            app:layout_constraintTop_toBottomOf="@+id/imageView151" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Asistencia: Ousmane Dembélé"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView152"
+            app:layout_constraintStart_toEndOf="@+id/imageView161"
+            app:layout_constraintTop_toBottomOf="@+id/textView102"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:text="3'"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView153"
+            app:layout_constraintEnd_toEndOf="@+id/imageView152"
+            app:layout_constraintTop_toBottomOf="@+id/imageView152" />
+
+        <ImageView
+            android:id="@+id/imageView162"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/var"
+            app:layout_constraintBottom_toBottomOf="@+id/textView104"
+            app:layout_constraintEnd_toStartOf="@+id/textView104"
+            app:layout_constraintTop_toTopOf="@+id/textView104" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text=" B̶e̶n̶z̶e̶m̶a̶"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView162"
+            app:layout_constraintEnd_toStartOf="@+id/imageView162"
+            app:layout_constraintTop_toBottomOf="@+id/imageView152" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Gol Anulado (VAR)"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView153"
+            app:layout_constraintEnd_toStartOf="@+id/imageView162"
+            app:layout_constraintTop_toBottomOf="@+id/textView105"
+            app:layout_constraintVertical_bias="0.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/ImagenBienvenida"
-        android:layout_width="140dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="128dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/logogrande"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,7 +24,7 @@
         android:text="¡Bienvenido a Futbin!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="22dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -33,13 +33,13 @@
 
     <TextView
         android:id="@+id/texto2"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
+        android:layout_width="204dp"
+        android:layout_height="61dp"
         android:layout_marginTop="32dp"
         android:text="¡A continuación elegirás tu equipo favorito junto a tu selección nacional favorita!"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -54,7 +54,7 @@
         android:text="Pulsa el botón “Siguiente” para continuar"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,8 +62,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="24dp"
-        android:layout_height="32dp"
+        android:layout_width="20dp"
+        android:layout_height="27dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/finger"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,8 +72,8 @@
 
     <Button
         android:id="@+id/BotonSiguiente"
-        android:layout_width="280dp"
-        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
         android:background="@drawable/boton_redondeado"
         android:backgroundTint="#1F9900"
         android:text="Siguiente"

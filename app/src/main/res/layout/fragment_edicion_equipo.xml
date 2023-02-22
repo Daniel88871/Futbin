@@ -246,7 +246,7 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="12dp"
-                android:background="@drawable/barcelona"
+                android:src="@drawable/barcelona"
                 app:layout_constraintBottom_toTopOf="@+id/imageView5"
                 app:layout_constraintStart_toStartOf="@+id/imageView5"
                 app:layout_constraintTop_toTopOf="parent" />

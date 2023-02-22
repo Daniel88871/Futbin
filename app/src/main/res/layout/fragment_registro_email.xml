@@ -10,7 +10,7 @@
         android:id="@+id/editText"
         android:layout_width="293dp"
         android:layout_height="37dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="55dp"
         android:background="#1F9900"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,10 +44,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="23dp"
         android:text="Crea tu cuenta de Futbin"
         android:textColor="#1F9900"
-        android:textSize="22dp"
+        android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.133"
@@ -95,8 +95,8 @@
 
     <TextView
         android:id="@+id/textView48"
-        android:layout_width="248dp"
-        android:layout_height="25dp"
+        android:layout_width="242dp"
+        android:layout_height="24dp"
         android:layout_marginTop="4dp"
         android:text="Tu contraseña debe contener al menos 8 caracteres, 1 letra mayúscula y 1 número"
         android:textColor="#000000"
@@ -121,8 +121,8 @@
 
     <TextView
         android:id="@+id/textView50"
-        android:layout_width="207dp"
-        android:layout_height="31dp"
+        android:layout_width="208dp"
+        android:layout_height="26dp"
         android:layout_marginTop="4dp"
         android:text="Por favor, introduce de nuevo la contraseña que has puesto arriba"
         android:textColor="#000000"
@@ -134,11 +134,12 @@
 
     <Button
         android:id="@+id/botonRegistrarse"
-        android:layout_width="293dp"
-        android:layout_height="37dp"
+        android:layout_width="273dp"
+        android:layout_height="33dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/bordes"
         android:text="Crear cuenta"
+        android:textSize="11dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,18 +151,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="o"
-        android:textSize="19dp"
+        android:textSize="17dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/botonRegistrarse" />
 
     <Button
         android:id="@+id/botonIniciarSesion"
-        android:layout_width="293dp"
-        android:layout_height="37dp"
+        android:layout_width="273dp"
+        android:layout_height="33dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/bordes"
         android:text="Inicia sesión"
+        android:textSize="11dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
@@ -169,7 +171,7 @@
 
     <ImageView
         android:id="@+id/imageView24"
-        android:layout_width="110dp"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:src="@drawable/minilinea"
@@ -180,7 +182,7 @@
 
     <ImageView
         android:id="@+id/imageView86"
-        android:layout_width="110dp"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:src="@drawable/minilinea"

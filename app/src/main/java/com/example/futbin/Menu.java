@@ -12,14 +12,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Menu extends Fragment {
 
-    Button botonPerfil;
-    Button botonNotificaciones;
-    Button botonCalendario;
-    Button botonPartido;
-    Button botonNoticia;
+    ImageButton botonPerfil;
+    ImageButton botonNotificaciones;
+    ImageButton botonCalendario;
     NavController navController;
 
     @Override
@@ -40,11 +39,9 @@ public class Menu extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonPerfil = view.findViewById(R.id.BotonSiguiente);
-        botonNotificaciones = view.findViewById(R.id.BotonSiguiente);
-        botonCalendario = view.findViewById(R.id.BotonSiguiente);
-        botonPartido = view.findViewById(R.id.BotonSiguiente);
-        botonNoticia = view.findViewById(R.id.BotonSiguiente);
+        botonPerfil = view.findViewById(R.id.botonPerfil);
+        botonNotificaciones = view.findViewById(R.id.botonNotificaciones);
+        botonCalendario = view.findViewById(R.id.botonCalendario);
 
         botonPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -64,20 +61,6 @@ public class Menu extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_menu_to_calendario);
-            }
-        });
-
-        botonPartido.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_menu_to_resultadoPartido);
-            }
-        });
-
-        botonNoticia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_menu_to_noticia);
             }
         });
     }

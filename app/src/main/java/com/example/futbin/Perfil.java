@@ -12,12 +12,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class Perfil extends Fragment {
 
-    Button botonEditarequipo;
-    Button botonEditarseleccion;
-    Button botonEditarCompeticion;
+    ImageButton botonEditarequipo;
+    ImageButton botonEditarseleccion;
+    ImageButton botonEditarCompeticion;
     NavController navController;
 
     @Override

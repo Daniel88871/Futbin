@@ -66,7 +66,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:paddingBottom="200dp" >
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -79,10 +80,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="70dp">
 
-                    <ImageButton
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="barsa" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
             </HorizontalScrollView>

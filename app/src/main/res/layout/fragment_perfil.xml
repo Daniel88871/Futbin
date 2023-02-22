@@ -10,7 +10,7 @@
         android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:text="Perfil"
         android:textColor="#1F9900"
         android:textSize="22dp"
@@ -22,8 +22,8 @@
 
     <ImageView
         android:id="@+id/imageView106"
-        android:layout_width="374dp"
-        android:layout_height="155dp"
+        android:layout_width="367dp"
+        android:layout_height="127dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/portadaperfil"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,22 +31,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView58" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="374dp"
-        android:layout_height="155dp"
+        android:layout_width="367dp"
+        android:layout_height="127dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView106"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="@+id/imageView106"
         app:layout_constraintTop_toTopOf="@+id/imageView106"
         app:layout_constraintVertical_bias="0.0">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="16dp"
+            android:layout_width="84dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="13dp"
             android:src="@drawable/maradona"
-            app:civ_border_color="#FF000000"
+            app:civ_border_color="#1F9900"
             app:civ_border_width="2dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -56,10 +57,10 @@
             android:id="@+id/textView59"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
             android:text="Futbin777"
             android:textColor="@color/black"
-            android:textSize="17dp"
+            android:textSize="15dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/profile_image"
             app:layout_constraintStart_toStartOf="@+id/profile_image"
@@ -85,17 +86,17 @@
         android:layout_marginTop="20dp"
         android:text="Equipos que sigues"
         android:textColor="#1F9900"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView107" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="321dp"
-        android:layout_height="85dp"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/bordes2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -104,15 +105,15 @@
 
         <ImageView
             android:id="@+id/imageView109"
-            android:layout_width="52dp"
-            android:layout_height="54dp"
-            android:layout_marginStart="70dp"
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="68dp"
             android:layout_marginTop="9dp"
-            android:background="@drawable/barcelona"
+            android:src="@drawable/barcelona"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="0.111" />
 
         <TextView
             android:id="@+id/textView62"
@@ -120,21 +121,21 @@
             android:layout_height="wrap_content"
             android:text="FC Barcelona"
             android:textColor="#000000"
-            android:textSize="12dp"
+            android:textSize="9dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageView109"
             app:layout_constraintStart_toStartOf="@+id/imageView109"
             app:layout_constraintTop_toBottomOf="@+id/imageView109" />
 
-        <ImageView
+        <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imageView110"
-            android:layout_width="54dp"
-            android:layout_height="39dp"
+            android:layout_width="47dp"
+            android:layout_height="38dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/espana"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/espana"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintHorizontal_bias="0.401"
             app:layout_constraintStart_toEndOf="@+id/imageView109"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -142,10 +143,10 @@
             android:id="@+id/textView63"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="2dp"
             android:text="España"
             android:textColor="#000000"
-            android:textSize="13dp"
+            android:textSize="10dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="@+id/imageView110"
             app:layout_constraintStart_toStartOf="@+id/imageView110"
@@ -153,25 +154,30 @@
 
         <ImageButton
             android:id="@+id/botonEditarequipo"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginBottom="60dp"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/lapiz"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.199"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintBottom_toTopOf="@+id/textView62"
+            app:layout_constraintEnd_toEndOf="@+id/imageView109"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView109"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
             android:id="@+id/botonEditarseleccion"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginBottom="60dp"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/lapiz"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.614"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintBottom_toTopOf="@+id/imageView110"
+            app:layout_constraintEnd_toEndOf="@+id/imageView110"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView110"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -179,20 +185,20 @@
         android:id="@+id/textView64"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="24dp"
         android:text="Comepticiones que sigues"
         android:textColor="#1F9900"
-        android:textSize="20dp"
+        android:textSize="18dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout2"
-        android:layout_width="321dp"
-        android:layout_height="85dp"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
         android:layout_marginTop="12dp"
         android:background="@drawable/bordes2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -202,76 +208,78 @@
         <ImageView
             android:id="@+id/imageView128"
             android:layout_width="60dp"
-            android:layout_height="89dp"
-            android:layout_marginStart="16dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
             android:src="@drawable/laligasantander"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.533" />
 
         <ImageView
             android:id="@+id/imageView129"
             android:layout_width="58dp"
-            android:layout_height="70dp"
+            android:layout_height="58dp"
             android:layout_marginStart="8dp"
             android:src="@drawable/champions"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView128"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.466" />
+            app:layout_constraintVertical_bias="0.411" />
 
         <ImageView
             android:id="@+id/imageView142"
-            android:layout_width="44dp"
-            android:layout_height="58dp"
-            android:layout_marginStart="8dp"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="12dp"
             android:src="@drawable/europaleague"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView129"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.481" />
+            app:layout_constraintVertical_bias="0.466" />
 
         <ImageView
             android:id="@+id/imageView143"
-            android:layout_width="42dp"
-            android:layout_height="55dp"
-            android:layout_marginStart="10dp"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
             android:src="@drawable/premier"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView142"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.466" />
 
         <ImageView
             android:id="@+id/imageView145"
-            android:layout_width="66dp"
-            android:layout_height="53dp"
-            android:layout_marginStart="2dp"
+            android:layout_width="57dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
             android:src="@drawable/supercup"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageView143"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.468" />
+            app:layout_constraintVertical_bias="0.482" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageButton
         android:id="@+id/botonEditarcompeticion"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginBottom="164dp"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:layout_marginBottom="1dp"
         android:background="@drawable/lapiz"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout2" />
 
     <Button
-        android:layout_width="200dp"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="28dp"
         android:backgroundTint="#FF6464"
-        android:textColor="#FFFFFF"
         android:text="Cerrar sesión"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
