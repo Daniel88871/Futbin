@@ -37,12 +37,9 @@ public class Perfil extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         navController = Navigation.findNavController(view);
-
-        botonEditarequipo = view.findViewById(R.id.BotonSiguiente);
-
-        botonEditarseleccion = view.findViewById(R.id.BotonSiguiente);
-
-        botonEditarCompeticion = view.findViewById(R.id.BotonSiguiente);
+        botonEditarequipo = view.findViewById(R.id.botonEditarequipo);
+        botonEditarseleccion = view.findViewById(R.id.botonEditarseleccion);
+        botonEditarCompeticion = view.findViewById(R.id.botonEditarcompeticion);
 
         botonEditarequipo.setOnClickListener(new View.OnClickListener() {
             @Override

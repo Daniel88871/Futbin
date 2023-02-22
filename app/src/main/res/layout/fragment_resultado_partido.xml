@@ -1,14 +1,314 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultadoPartido">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:paddingBottom="200dp" >
 
-</FrameLayout>
+        <ImageView
+            android:id="@+id/imageView105"
+            android:layout_width="match_parent"
+            android:layout_height="194dp"
+            android:background="@drawable/rectangulonegro"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView144"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="45dp"
+            android:background="@drawable/barcelona"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView105"
+            app:layout_constraintStart_toStartOf="@+id/imageView105"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.52" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FC Barcelona"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView144"
+            app:layout_constraintStart_toStartOf="@+id/imageView144"
+            app:layout_constraintTop_toBottomOf="@+id/imageView144" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="LaLiga Santander - Jornada 14"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView105" />
+
+        <ImageView
+            android:id="@+id/imageView146"
+            android:layout_width="73dp"
+            android:layout_height="74dp"
+            android:layout_marginEnd="45dp"
+            android:src="@drawable/realmadrid"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView105"
+            app:layout_constraintEnd_toEndOf="@+id/imageView105"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.45999998" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Real Madrid"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView146"
+            app:layout_constraintStart_toStartOf="@+id/imageView146"
+            app:layout_constraintTop_toBottomOf="@+id/imageView146" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="70dp"
+            android:text="2 : 0"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView105"
+            app:layout_constraintEnd_toStartOf="@+id/imageView146"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toEndOf="@+id/imageView144" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="35'"
+            android:textColor="#FF4E4E"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView83"
+            app:layout_constraintStart_toStartOf="@+id/textView83"
+            app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="EVENTOS DEL PARTIDO EN DIRECTO"
+            android:textColor="#1F9900"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.125"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+        <ImageView
+            android:id="@+id/imageView147"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+        <ImageView
+            android:id="@+id/imageView148"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView147" />
+
+        <ImageView
+            android:id="@+id/imageView149"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView148" />
+
+        <ImageView
+            android:id="@+id/imageView150"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView149" />
+
+        <ImageView
+            android:id="@+id/imageView151"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView150" />
+
+        <ImageView
+            android:id="@+id/imageView152"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView151" />
+
+        <ImageView
+            android:id="@+id/imageView153"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView152" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="¿QUIEN GANARÁ?"
+            android:textColor="#1F9900"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.071"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView153" />
+
+
+        <ImageView
+            android:id="@+id/imageView154"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/lineabarsa"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="708dp" />
+
+        <ImageView
+            android:id="@+id/imageView155"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/lineaempate"
+            app:layout_constraintStart_toEndOf="@+id/imageView154"
+            tools:layout_editor_absoluteY="708dp" />
+
+        <ImageView
+            android:id="@+id/imageView156"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="2dp"
+            android:background="@drawable/lineamadrid"
+            app:layout_constraintStart_toEndOf="@+id/imageView155"
+            tools:layout_editor_absoluteY="708dp" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="FC Barcelona"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView154"
+            app:layout_constraintEnd_toEndOf="@+id/imageView154"
+            app:layout_constraintStart_toStartOf="@+id/imageView154" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="15dp"
+            android:text="65%"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView154"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="@+id/imageView154"
+            app:layout_constraintTop_toBottomOf="@+id/imageView154" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Empate"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView155"
+            app:layout_constraintEnd_toEndOf="@+id/imageView155"
+            app:layout_constraintStart_toStartOf="@+id/imageView155" />
+
+        <TextView
+            android:id="@+id/textView89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="5%"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView155"
+            app:layout_constraintStart_toStartOf="@+id/imageView155"
+            app:layout_constraintTop_toBottomOf="@+id/imageView155" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Real Madrid"
+            android:textColor="#000000"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView156"
+            app:layout_constraintEnd_toEndOf="@+id/imageView156"
+            app:layout_constraintStart_toStartOf="@+id/imageView156" />
+
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="30%"
+            android:textColor="#000000"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView156"
+            app:layout_constraintHorizontal_bias="0.858"
+            app:layout_constraintStart_toStartOf="@+id/imageView156"
+            app:layout_constraintTop_toBottomOf="@+id/imageView156" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

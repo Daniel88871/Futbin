@@ -1,14 +1,485 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EditarCompeticion">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Editar competición favorita"
+        android:textAlignment="center"
+        android:textColor="#1F9900"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/imageView111"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView111">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="200dp">
+
+            <ImageView
+                android:id="@+id/imageView112"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView113"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView112" />
+
+            <ImageView
+                android:id="@+id/imageView114"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView113" />
+
+            <ImageView
+                android:id="@+id/imageView115"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+            <ImageView
+                android:id="@+id/imageView116"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView115" />
+
+            <ImageView
+                android:id="@+id/imageView117"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView116" />
+
+            <ImageView
+                android:id="@+id/imageView118"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView117" />
+
+            <ImageView
+                android:id="@+id/imageView119"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView118" />
+
+            <ImageView
+                android:id="@+id/imageView120"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView119" />
+
+            <ImageView
+                android:id="@+id/imageView121"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView120" />
+
+            <ImageView
+                android:id="@+id/imageView122"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView121" />
+
+            <ImageView
+                android:id="@+id/imageView123"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView122" />
+
+            <ImageView
+                android:id="@+id/imageView124"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView123" />
+
+            <ImageView
+                android:id="@+id/imageView141"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/lineapequena"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView124" />
+
+            <ImageView
+                android:id="@+id/imageView125"
+                android:layout_width="41dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/laligasantander"
+                app:layout_constraintBottom_toTopOf="@+id/imageView112"
+                app:layout_constraintStart_toStartOf="@+id/imageView112"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="LaLiga Santander"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView125"
+                app:layout_constraintStart_toEndOf="@+id/imageView125"
+                app:layout_constraintTop_toTopOf="@+id/imageView125" />
+
+            <ImageView
+                android:id="@+id/imageView126"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/laligasmartbank"
+                app:layout_constraintBottom_toTopOf="@+id/imageView113"
+                app:layout_constraintStart_toStartOf="@+id/imageView112"
+                app:layout_constraintTop_toBottomOf="@+id/imageView112"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="LaLiga Smartbank"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView126"
+                app:layout_constraintStart_toEndOf="@+id/imageView126"
+                app:layout_constraintTop_toTopOf="@+id/imageView126" />
+
+            <ImageView
+                android:id="@+id/imageView127"
+                android:layout_width="43dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="6dp"
+                android:src="@drawable/supercopaespana"
+                app:layout_constraintBottom_toTopOf="@+id/imageView114"
+                app:layout_constraintStart_toStartOf="@+id/imageView113"
+                app:layout_constraintTop_toBottomOf="@+id/imageView113" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:text="Supercopa de España"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView127"
+                app:layout_constraintStart_toEndOf="@+id/imageView127"
+                app:layout_constraintTop_toTopOf="@+id/imageView127" />
+
+            <ImageView
+                android:id="@+id/imageView130"
+                android:layout_width="37dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="9dp"
+                android:src="@drawable/copadelrey"
+                app:layout_constraintBottom_toTopOf="@+id/imageView115"
+                app:layout_constraintStart_toStartOf="@+id/imageView114"
+                app:layout_constraintTop_toBottomOf="@+id/imageView114" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Copa del Rey"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView130"
+                app:layout_constraintStart_toEndOf="@+id/imageView130"
+                app:layout_constraintTop_toTopOf="@+id/imageView130" />
+
+            <ImageView
+                android:id="@+id/imageView131"
+                android:layout_width="30dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/primerafemenina"
+                app:layout_constraintBottom_toTopOf="@+id/imageView116"
+                app:layout_constraintStart_toStartOf="@+id/imageView115"
+                app:layout_constraintTop_toBottomOf="@+id/imageView115" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Primera División Femenino"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView131"
+                app:layout_constraintStart_toEndOf="@+id/imageView131"
+                app:layout_constraintTop_toTopOf="@+id/imageView131" />
+
+            <ImageView
+                android:id="@+id/imageView132"
+                android:layout_width="28dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/premier"
+                app:layout_constraintBottom_toTopOf="@+id/imageView117"
+                app:layout_constraintStart_toStartOf="@+id/imageView116"
+                app:layout_constraintTop_toBottomOf="@+id/imageView116" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:text="Premier League"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView132"
+                app:layout_constraintStart_toEndOf="@+id/imageView132"
+                app:layout_constraintTop_toTopOf="@+id/imageView132" />
+
+            <ImageView
+                android:id="@+id/imageView133"
+                android:layout_width="32dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/facup"
+                app:layout_constraintBottom_toTopOf="@+id/imageView118"
+                app:layout_constraintStart_toStartOf="@+id/imageView117"
+                app:layout_constraintTop_toBottomOf="@+id/imageView117" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="FA Cup"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView133"
+                app:layout_constraintStart_toEndOf="@+id/imageView133"
+                app:layout_constraintTop_toTopOf="@+id/imageView133" />
+
+            <ImageView
+                android:id="@+id/imageView134"
+                android:layout_width="31dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/eflcup"
+                app:layout_constraintBottom_toTopOf="@+id/imageView119"
+                app:layout_constraintStart_toStartOf="@+id/imageView118"
+                app:layout_constraintTop_toBottomOf="@+id/imageView118" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="EFL Cup"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView134"
+                app:layout_constraintStart_toEndOf="@+id/imageView134"
+                app:layout_constraintTop_toTopOf="@+id/imageView134" />
+
+            <ImageView
+                android:id="@+id/imageView135"
+                android:layout_width="36dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/champions"
+                app:layout_constraintBottom_toTopOf="@+id/imageView120"
+                app:layout_constraintStart_toStartOf="@+id/imageView119"
+                app:layout_constraintTop_toBottomOf="@+id/imageView119" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Champions League"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView135"
+                app:layout_constraintStart_toEndOf="@+id/imageView135"
+                app:layout_constraintTop_toTopOf="@+id/imageView135" />
+
+            <ImageView
+                android:id="@+id/imageView136"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/europaleague"
+                app:layout_constraintBottom_toTopOf="@+id/imageView121"
+                app:layout_constraintStart_toStartOf="@+id/imageView120"
+                app:layout_constraintTop_toBottomOf="@+id/imageView120" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="17dp"
+                android:text="Europa League"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView136"
+                app:layout_constraintStart_toEndOf="@+id/imageView136"
+                app:layout_constraintTop_toTopOf="@+id/imageView136" />
+
+            <ImageView
+                android:id="@+id/imageView137"
+                android:layout_width="27dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/conferenceleague"
+                app:layout_constraintBottom_toTopOf="@+id/imageView122"
+                app:layout_constraintStart_toStartOf="@+id/imageView121"
+                app:layout_constraintTop_toBottomOf="@+id/imageView121" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Conference League"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView137"
+                app:layout_constraintStart_toEndOf="@+id/imageView137"
+                app:layout_constraintTop_toTopOf="@+id/imageView137" />
+
+            <ImageView
+                android:id="@+id/imageView138"
+                android:layout_width="26dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/supercup"
+                app:layout_constraintBottom_toTopOf="@+id/imageView123"
+                app:layout_constraintStart_toStartOf="@+id/imageView122"
+                app:layout_constraintTop_toBottomOf="@+id/imageView122" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="UEFA Supercup"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView138"
+                app:layout_constraintStart_toEndOf="@+id/imageView138"
+                app:layout_constraintTop_toTopOf="@+id/imageView138" />
+
+            <ImageView
+                android:id="@+id/imageView139"
+                android:layout_width="37dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/libertadores"
+                app:layout_constraintBottom_toTopOf="@+id/imageView124"
+                app:layout_constraintStart_toStartOf="@+id/imageView123"
+                app:layout_constraintTop_toBottomOf="@+id/imageView123" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="CONMEBOL Libertadores"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView139"
+                app:layout_constraintStart_toEndOf="@+id/imageView139"
+                app:layout_constraintTop_toTopOf="@+id/imageView139" />
+
+            <ImageView
+                android:id="@+id/imageView140"
+                android:layout_width="34dp"
+                android:layout_height="33dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/mundialito"
+                app:layout_constraintBottom_toTopOf="@+id/imageView141"
+                app:layout_constraintStart_toStartOf="@+id/imageView124"
+                app:layout_constraintTop_toBottomOf="@+id/imageView124" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Copa Mundial de Clubes"
+                android:textColor="#000000"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView140"
+                app:layout_constraintStart_toEndOf="@+id/imageView140"
+                app:layout_constraintTop_toTopOf="@+id/imageView140" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
