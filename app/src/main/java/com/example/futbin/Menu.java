@@ -19,6 +19,9 @@ public class Menu extends Fragment {
     ImageButton botonPerfil;
     ImageButton botonNotificaciones;
     ImageButton botonCalendario;
+    ImageButton botonpartidoPequeno;
+    Button botonpartidoGrande;
+    Button botonNoticia;
     NavController navController;
 
     @Override
@@ -42,6 +45,9 @@ public class Menu extends Fragment {
         botonPerfil = view.findViewById(R.id.botonPerfil);
         botonNotificaciones = view.findViewById(R.id.botonNotificaciones);
         botonCalendario = view.findViewById(R.id.botonCalendario);
+        botonpartidoPequeno = view.findViewById(R.id.botonPartidopequeno);
+        botonpartidoGrande = view.findViewById(R.id.botonPartidogrande);
+        botonNoticia = view.findViewById(R.id.botonNoticia);
 
         botonPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,6 +67,27 @@ public class Menu extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_menu_to_calendario);
+            }
+        });
+
+        botonpartidoPequeno.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_menu_to_resultadoPartido);
+            }
+        });
+
+        botonpartidoGrande.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_menu_to_resultadoPartido);
+            }
+        });
+
+        botonNoticia.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_menu_to_noticia);
             }
         });
     }

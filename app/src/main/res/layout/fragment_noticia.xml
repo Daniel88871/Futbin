@@ -7,25 +7,150 @@
     tools:context=".Noticia">
 
     <ImageView
-        android:id="@+id/imageView108"
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView181"
+        android:layout_width="338dp"
         android:layout_height="wrap_content"
-        android:background="@drawable/auba"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/lineapequena"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView126" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="295dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="24dp"
+        android:text="El conjunto azulgrana se pone dos goles por delante del Real Madrid"
+        android:textColor="#1F9900"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:layout_width="336dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="40dp"
-        android:text="Ya lo merecía por lo que había hecho a lo largo del primer tiempo. Los de Xavi Hernández impusieron su fórmula y estilo de juego en el Camp Nou y el efecto del técnico culé se hizo notar a los 33 minutos del primer tiempo, cuando Aubameyang apareció para marcar el 2-0 del Barcelona vs. Real Madrid por LaLiga Santander"
-
-        android:textColor="@color/black"
+    <ImageView
+        android:id="@+id/imageView108"
+        android:layout_width="331dp"
+        android:layout_height="208dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/auba2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView181" />
+
+    <ImageView
+        android:id="@+id/imageView182"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="14dp"
+        android:background="@drawable/one"
+        app:layout_constraintBottom_toTopOf="@+id/imageView108"
+        app:layout_constraintStart_toStartOf="@+id/imageView181"
+        app:layout_constraintTop_toBottomOf="@+id/imageView181" />
+
+    <TextView
+        android:id="@+id/textView132"
+        android:layout_width="313dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="16dp"
+        android:text="Ya lo merecía por lo que había hecho a lo largo del primer tiempo. Los de Xavi Hernández impusieron su fórmula y estilo de juego en el Camp Nou y el efecto del técnico culé se hizo notar a los 33 minutos del primer tiempo, cuando Aubameyang apareció para marcar el 2-0 del Barcelona vs. Real Madrid por LaLiga Santander"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView108" />
 
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:text="Carlos Muñoz del Real"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView182"
+        app:layout_constraintStart_toEndOf="@+id/imageView182"
+        app:layout_constraintTop_toTopOf="@+id/imageView182" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:text="Hoy, 21:35"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView108"
+        app:layout_constraintEnd_toEndOf="@+id/imageView181"
+        app:layout_constraintTop_toBottomOf="@+id/imageView181"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="¿Que te ha parecido este artículo?"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView132" />
+
+    <ImageView
+        android:id="@+id/imageView183"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/like"
+        app:layout_constraintStart_toStartOf="@+id/textView129"
+        app:layout_constraintTop_toBottomOf="@+id/textView129" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="400"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView183"
+        app:layout_constraintStart_toEndOf="@+id/imageView183"
+        app:layout_constraintTop_toTopOf="@+id/imageView183"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView184"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/dislike"
+        app:layout_constraintEnd_toEndOf="@+id/textView129"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView130"
+        app:layout_constraintTop_toBottomOf="@+id/textView129" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="83"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView184"
+        app:layout_constraintStart_toEndOf="@+id/imageView184"
+        app:layout_constraintTop_toTopOf="@+id/imageView184" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

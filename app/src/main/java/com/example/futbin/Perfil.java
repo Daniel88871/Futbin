@@ -19,6 +19,7 @@ public class Perfil extends Fragment {
     ImageButton botonEditarequipo;
     ImageButton botonEditarseleccion;
     ImageButton botonEditarCompeticion;
+    Button botonCerrarsesion;
     NavController navController;
 
     @Override
@@ -38,6 +39,7 @@ public class Perfil extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         navController = Navigation.findNavController(view);
+        botonCerrarsesion = view.findViewById(R.id.botonCerrarsesion);
         botonEditarequipo = view.findViewById(R.id.botonEditarequipo);
         botonEditarseleccion = view.findViewById(R.id.botonEditarseleccion);
         botonEditarCompeticion = view.findViewById(R.id.botonEditarcompeticion);
@@ -60,6 +62,13 @@ public class Perfil extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_perfil_to_editarCompeticion);
+            }
+        });
+
+        botonCerrarsesion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_perfil_to_iniciodeSesion);
             }
         });
     }

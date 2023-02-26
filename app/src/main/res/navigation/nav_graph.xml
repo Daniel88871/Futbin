@@ -12,7 +12,9 @@
         tools:layout="@layout/fragment_bienvenida" >
         <action
             android:id="@+id/action_bienvenida_to_seleccionDeEquipo"
-            app:destination="@id/seleccionDeEquipo" />
+            app:destination="@id/seleccionDeEquipo"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/seleccionDeEquipo"
@@ -21,7 +23,9 @@
         tools:layout="@layout/fragment_seleccion_de_equipo" >
         <action
             android:id="@+id/action_seleccionDeEquipo_to_seleccionDeSeleccion"
-            app:destination="@id/seleccionDeSeleccion" />
+            app:destination="@id/seleccionDeSeleccion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/seleccionDeSeleccion"
@@ -30,7 +34,9 @@
         tools:layout="@layout/fragment_seleccion_de_seleccion" >
         <action
             android:id="@+id/action_seleccionDeSeleccion_to_registro"
-            app:destination="@id/registro" />
+            app:destination="@id/registro"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/registro"
@@ -39,7 +45,9 @@
         tools:layout="@layout/fragment_registro" >
         <action
             android:id="@+id/action_registro_to_registroEmail"
-            app:destination="@id/registroEmail" />
+            app:destination="@id/registroEmail"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/registroEmail"
@@ -48,13 +56,19 @@
         tools:layout="@layout/fragment_registro_email" >
         <action
             android:id="@+id/action_registroEmail_to_menu"
-            app:destination="@id/menu" />
+            app:destination="@id/menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_registroEmail_to_registro"
-            app:destination="@id/registro" />
+            app:destination="@id/registro"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_registroEmail_to_iniciodeSesion"
-            app:destination="@id/iniciodeSesion" />
+            app:destination="@id/iniciodeSesion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/menu"
@@ -63,16 +77,24 @@
         tools:layout="@layout/fragment_menu" >
         <action
             android:id="@+id/action_menu_to_resultadoPartido"
-            app:destination="@id/resultadoPartido" />
+            app:destination="@id/resultadoPartido"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_menu_to_perfil"
-            app:destination="@id/perfil" />
+            app:destination="@id/perfil"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_menu_to_calendario"
-            app:destination="@id/calendario" />
+            app:destination="@id/calendario"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_menu_to_noticia"
-            app:destination="@id/noticia" />
+            app:destination="@id/noticia"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/resultadoPartido"
@@ -86,16 +108,29 @@
         tools:layout="@layout/fragment_perfil" >
         <action
             android:id="@+id/action_perfil_to_menu"
-            app:destination="@id/menu" />
+            app:destination="@id/menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_perfil_to_edicionEquipo"
-            app:destination="@id/edicionEquipo" />
+            app:destination="@id/edicionEquipo"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_perfil_to_edicionSeleccion"
-            app:destination="@id/edicionSeleccion" />
+            app:destination="@id/edicionSeleccion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
         <action
             android:id="@+id/action_perfil_to_editarCompeticion"
-            app:destination="@id/editarCompeticion" />
+            app:destination="@id/editarCompeticion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_perfil_to_iniciodeSesion"
+            app:destination="@id/iniciodeSesion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/calendario"
@@ -109,7 +144,9 @@
         tools:layout="@layout/fragment_edicion_equipo" >
         <action
             android:id="@+id/action_edicionEquipo_to_perfil"
-            app:destination="@id/perfil" />
+            app:destination="@id/perfil"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/edicionSeleccion"
@@ -118,7 +155,9 @@
         tools:layout="@layout/fragment_edicion_seleccion" >
         <action
             android:id="@+id/action_edicionSeleccion_to_perfil"
-            app:destination="@id/perfil" />
+            app:destination="@id/perfil"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/noticia"
@@ -127,7 +166,9 @@
         tools:layout="@layout/fragment_noticia" >
         <action
             android:id="@+id/action_noticia_to_menu"
-            app:destination="@id/menu" />
+            app:destination="@id/menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/editarCompeticion"
@@ -136,7 +177,9 @@
         tools:layout="@layout/fragment_editar_competicion" >
         <action
             android:id="@+id/action_editarCompeticion_to_perfil"
-            app:destination="@id/perfil" />
+            app:destination="@id/perfil"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
     <fragment
         android:id="@+id/iniciodeSesion"
@@ -145,6 +188,35 @@
         tools:layout="@layout/fragment_iniciode_sesion" >
         <action
             android:id="@+id/action_iniciodeSesion_to_menu"
-            app:destination="@id/menu" />
+            app:destination="@id/menu"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_iniciodeSesion_to_resetPassword"
+            app:destination="@id/resetPassword"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPassword"
+        android:name="com.example.futbin.ResetPassword"
+        android:label="fragment_reset_password"
+        tools:layout="@layout/fragment_reset_password" >
+        <action
+            android:id="@+id/action_resetPassword_to_resetPassword2"
+            app:destination="@id/resetPassword2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPassword2"
+        android:name="com.example.futbin.ResetPassword2"
+        android:label="fragment_reset_password2"
+        tools:layout="@layout/fragment_reset_password2" >
+        <action
+            android:id="@+id/action_resetPassword2_to_iniciodeSesion"
+            app:destination="@id/iniciodeSesion"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim" />
     </fragment>
 </navigation>

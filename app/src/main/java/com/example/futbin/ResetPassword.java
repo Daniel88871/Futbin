@@ -13,13 +13,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public class IniciodeSesion extends Fragment {
+public class ResetPassword extends Fragment {
 
-    Button botonReset;
-    Button iniciarSesion;
+    Button botonSiguiente;
     NavController navController;
 
-    public IniciodeSesion() {}
+    public ResetPassword() {}
 
 
     @Override
@@ -30,29 +29,20 @@ public class IniciodeSesion extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_iniciode_sesion, container, false);
+        return inflater.inflate(R.layout.fragment_reset_password, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        botonReset = view.findViewById(R.id.botonResetpass);
-        iniciarSesion = view.findViewById(R.id.botonIniciar);
         navController = Navigation.findNavController(view);
+        botonSiguiente = view.findViewById(R.id.botonSiguientepassword);
 
-
-        botonReset.setOnClickListener(new View.OnClickListener() {
+        botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                navController.navigate(R.id.action_iniciodeSesion_to_resetPassword);
-            }
-        });
-
-        iniciarSesion.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_iniciodeSesion_to_menu);
+                navController.navigate(R.id.action_resetPassword_to_resetPassword2);
             }
         });
     }

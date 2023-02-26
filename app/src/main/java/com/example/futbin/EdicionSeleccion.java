@@ -36,7 +36,7 @@ public class EdicionSeleccion extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonEscogerseleccion = view.findViewById(R.id.BotonSiguiente);
+        botonEscogerseleccion = view.findViewById(R.id.botonseleccion2);
 
         botonEscogerseleccion.setOnClickListener(new View.OnClickListener() {
             @Override

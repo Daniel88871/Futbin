@@ -32,7 +32,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="367dp"
-        android:layout_height="127dp"
+        android:layout_height="197dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView106"
         app:layout_constraintEnd_toEndOf="parent"
@@ -274,6 +274,7 @@
         app:layout_constraintStart_toStartOf="@+id/constraintLayout2" />
 
     <Button
+        android:id="@+id/botonCerrarsesion"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"

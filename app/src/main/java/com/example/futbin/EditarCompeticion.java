@@ -36,7 +36,7 @@ public class EditarCompeticion extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonEscogercompeticion = view.findViewById(R.id.BotonSiguiente);
+        botonEscogercompeticion = view.findViewById(R.id.botonLiga);
 
         botonEscogercompeticion.setOnClickListener(new View.OnClickListener() {
             @Override
