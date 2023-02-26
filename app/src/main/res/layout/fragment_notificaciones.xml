@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notificaciones">
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Notificaciones del partido"
+        android:textColor="#1F9900"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView186"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView61" />
+
+    <ImageView
+        android:id="@+id/imageView185"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/balon"
+        app:layout_constraintBottom_toTopOf="@+id/imageView187"
+        app:layout_constraintStart_toStartOf="@+id/imageView186"
+        app:layout_constraintTop_toBottomOf="@+id/imageView186" />
+
+    <ImageView
+        android:id="@+id/imageView187"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView186" />
+
+    <TextView
+        android:id="@+id/textView133"
+        android:layout_width="272dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="10dp"
+        android:text="¡¡GOOOL DEL FC BARCELONA!! ¡GOL DE AUBAMEYANG QUE NO PERDONA SOLO ANTE COURTOIS!"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView185"
+        app:layout_constraintStart_toEndOf="@+id/imageView185"
+        app:layout_constraintTop_toTopOf="@+id/imageView185" />
+
+    <ImageView
+        android:id="@+id/imageView188"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView187" />
+
+    <ImageView
+        android:id="@+id/imageView189"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView188" />
+
+    <ImageView
+        android:id="@+id/imageView190"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView189" />
+
+    <ImageView
+        android:id="@+id/imageView191"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView190" />
+
+    <ImageView
+        android:id="@+id/imageView192"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView191" />
+
+    <ImageView
+        android:id="@+id/imageView193"
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/lineapequena"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView192" />
+
+    <ImageView
+        android:id="@+id/imageView194"
+        android:layout_width="19dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/cambio"
+        app:layout_constraintBottom_toTopOf="@+id/imageView188"
+        app:layout_constraintStart_toStartOf="@+id/imageView187"
+        app:layout_constraintTop_toBottomOf="@+id/imageView187" />
+
+    <TextView
+        android:id="@+id/textView134"
+        android:layout_width="272dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:text="Cambio bastante pronto para el Real Madrid en el minuto 29, sale Dani Carvajal y entra Lucas Vázquez  "
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView194"
+        app:layout_constraintStart_toEndOf="@+id/imageView194"
+        app:layout_constraintTop_toTopOf="@+id/imageView194" />
+
+    <ImageView
+        android:id="@+id/imageView195"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/amarilla"
+        app:layout_constraintBottom_toTopOf="@+id/imageView189"
+        app:layout_constraintStart_toStartOf="@+id/imageView188"
+        app:layout_constraintTop_toBottomOf="@+id/imageView188" />
+
+    <TextView
+        android:id="@+id/textView135"
+        android:layout_width="271dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:text="¡Tarjeta amarilla para el Real Madrid! Tarjeta para Éder Militão tras una entrada a destiempo a Sergio Busquets  "
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView195"
+        app:layout_constraintStart_toEndOf="@+id/imageView195"
+        app:layout_constraintTop_toTopOf="@+id/imageView195" />
+
+    <ImageView
+        android:id="@+id/imageView196"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/amarilla"
+        app:layout_constraintBottom_toTopOf="@+id/imageView190"
+        app:layout_constraintStart_toStartOf="@+id/imageView189"
+        app:layout_constraintTop_toBottomOf="@+id/imageView189" />
+
+    <TextView
+        android:id="@+id/textView136"
+        android:layout_width="272dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="10dp"
+        android:text="¡Tarjeta amarilla para el FC Barcelona! Tarjeta para Frenkie De Jong tras un pisotón a Vinicius Jr."
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView196"
+        app:layout_constraintStart_toEndOf="@+id/imageView196"
+        app:layout_constraintTop_toTopOf="@+id/imageView196" />
+
+    <ImageView
+        android:id="@+id/imageView197"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:src="@drawable/balon"
+        app:layout_constraintBottom_toTopOf="@+id/imageView191"
+        app:layout_constraintStart_toStartOf="@+id/imageView190"
+        app:layout_constraintTop_toBottomOf="@+id/imageView190" />
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="273dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="10dp"
+        android:text="¡¡GOOOL DEL FC BARCELONA!! ¡GOL DE ARAUJO TRAS UN CORNER MUY BIEN CENTRADO DE OUSMANE DEMBÉLÉ!"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView197"
+        app:layout_constraintStart_toEndOf="@+id/imageView197"
+        app:layout_constraintTop_toTopOf="@+id/imageView197" />
+
+    <ImageView
+        android:id="@+id/imageView198"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/var"
+        app:layout_constraintBottom_toTopOf="@+id/imageView192"
+        app:layout_constraintStart_toStartOf="@+id/imageView191"
+        app:layout_constraintTop_toBottomOf="@+id/imageView191" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="¡Gol anulado a Karim Benzema! El delantero francés se encontraba adelantado por escasos centimetros de la defensa rival"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView198"
+        app:layout_constraintStart_toEndOf="@+id/imageView198"
+        app:layout_constraintTop_toTopOf="@+id/imageView198" />
+
+    <ImageView
+        android:id="@+id/imageView199"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/balon"
+        app:layout_constraintBottom_toTopOf="@+id/imageView193"
+        app:layout_constraintStart_toStartOf="@+id/imageView192"
+        app:layout_constraintTop_toBottomOf="@+id/imageView192" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="296dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="10dp"
+        android:text="¡¡GOOOL DEL REAL MADRID!!! ¡GOL TEMPRANERO DE KARIM BENZEMA TRAS UN PASE EN PROFUNDIDAD ESPECTACULAR DE FEDE VALVERDE!"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView199"
+        app:layout_constraintStart_toEndOf="@+id/imageView199"
+        app:layout_constraintTop_toTopOf="@+id/imageView199" />
+
+    <ImageView
+        android:id="@+id/imageView200"
+        android:layout_width="20dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/notificaciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView193"
+        app:layout_constraintTop_toBottomOf="@+id/imageView193"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="156dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="10dp"
+        android:text="¡Comienza el partido en el Camp Nou!"
+        android:textColor="#000000"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView200"
+        app:layout_constraintStart_toEndOf="@+id/imageView200"
+        app:layout_constraintTop_toTopOf="@+id/imageView200" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

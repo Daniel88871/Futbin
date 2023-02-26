@@ -11,42 +11,34 @@
         android:layout_width="match_parent"
         android:layout_height="70dp" >
 
+
         <TextView
             android:id="@+id/textView61"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
             android:text="Futbin"
             android:textColor="#1F9900"
             android:textSize="30dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/botonCalendario"
-            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintHorizontal_bias="0.068"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.77" />
+            app:layout_constraintVertical_bias="0.76" />
 
         <ImageButton
             android:id="@+id/botonCalendario"
             android:layout_width="26dp"
             android:layout_height="26dp"
-            android:layout_marginEnd="25dp"
+            android:layout_marginEnd="20dp"
             android:background="@drawable/calendar_logo"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/botonNotificaciones"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.73" />
 
-        <ImageButton
-            android:id="@+id/botonNotificaciones"
-            android:layout_width="31dp"
-            android:layout_height="31dp"
-            android:layout_marginEnd="25dp"
-            android:background="@drawable/notificaciones"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/botonPerfil"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.73" />
+            app:layout_constraintVertical_bias="0.7" />
 
         <ImageButton
             android:id="@+id/botonPerfil"

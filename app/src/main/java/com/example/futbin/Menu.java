@@ -17,7 +17,6 @@ import android.widget.ImageButton;
 public class Menu extends Fragment {
 
     ImageButton botonPerfil;
-    ImageButton botonNotificaciones;
     ImageButton botonCalendario;
     ImageButton botonpartidoPequeno;
     Button botonpartidoGrande;
@@ -43,7 +42,6 @@ public class Menu extends Fragment {
         navController = Navigation.findNavController(view);
 
         botonPerfil = view.findViewById(R.id.botonPerfil);
-        botonNotificaciones = view.findViewById(R.id.botonNotificaciones);
         botonCalendario = view.findViewById(R.id.botonCalendario);
         botonpartidoPequeno = view.findViewById(R.id.botonPartidopequeno);
         botonpartidoGrande = view.findViewById(R.id.botonPartidogrande);
@@ -53,13 +51,6 @@ public class Menu extends Fragment {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_menu_to_perfil);
-            }
-        });
-
-        botonNotificaciones.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_menu_to_calendario);
             }
         });
 
