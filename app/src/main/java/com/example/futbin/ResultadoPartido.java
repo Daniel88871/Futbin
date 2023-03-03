@@ -17,7 +17,7 @@ import android.widget.ImageButton;
 public class ResultadoPartido extends Fragment {
 
     ImageButton botonNotificaciones;
-    ImageButton botonMap;
+    Button botonMap;
     NavController navController;
 
     public ResultadoPartido() {}

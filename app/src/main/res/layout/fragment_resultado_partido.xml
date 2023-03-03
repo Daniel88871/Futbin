@@ -11,24 +11,38 @@
         android:layout_height="match_parent"
         android:paddingBottom="20dp" >
 
-        <ImageButton
+        <Button
             android:id="@+id/botonMapa"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.104"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView145" />
+
+        <ImageView
+            android:id="@+id/button"
             android:layout_width="32dp"
             android:layout_height="35dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/mapa"
-            app:layout_constraintEnd_toStartOf="@+id/botonNotificaciones"
-            app:layout_constraintStart_toEndOf="@+id/textView85"
-            app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+            app:layout_constraintBottom_toBottomOf="@+id/textView147"
+            app:layout_constraintEnd_toStartOf="@+id/textView147"
+            app:layout_constraintHorizontal_bias="0.87"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView146"
+            app:layout_constraintVertical_bias="1.0" />
 
         <ImageButton
             android:id="@+id/botonNotificaciones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/notificaciones"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.731"
+            app:layout_constraintHorizontal_bias="0.558"
             app:layout_constraintStart_toEndOf="@+id/textView85"
             app:layout_constraintTop_toBottomOf="@+id/imageView105" />
 
@@ -577,5 +591,179 @@
             app:layout_constraintEnd_toStartOf="@+id/imageView162"
             app:layout_constraintTop_toBottomOf="@+id/textView105"
             app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView201"
+            android:layout_width="338dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/lineapequena"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView89" />
+
+        <TextView
+            android:id="@+id/textView141"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Información del partido"
+            android:textColor="#1F9900"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView201"
+            app:layout_constraintHorizontal_bias="0.047"
+            app:layout_constraintStart_toStartOf="@+id/imageView201"
+            app:layout_constraintTop_toBottomOf="@+id/imageView201" />
+
+        <TextView
+            android:id="@+id/textView142"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Competición"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView141"
+            app:layout_constraintHorizontal_bias="0.677"
+            app:layout_constraintStart_toStartOf="@+id/textView141"
+            app:layout_constraintTop_toBottomOf="@+id/textView141" />
+
+        <TextView
+            android:id="@+id/textView143"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LaLiga Santander"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView142"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView142"
+            app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+        <ImageView
+            android:id="@+id/imageView203"
+            android:layout_width="43dp"
+            android:layout_height="39dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/laligasantander"
+            app:layout_constraintBottom_toBottomOf="@+id/textView143"
+            app:layout_constraintEnd_toStartOf="@+id/textView142"
+            app:layout_constraintHorizontal_bias="0.95"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView142" />
+
+        <ImageView
+            android:id="@+id/imageView204"
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="12dp"
+            android:src="@drawable/reloj"
+            app:layout_constraintBottom_toBottomOf="@+id/textView145"
+            app:layout_constraintEnd_toStartOf="@+id/textView145"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView144" />
+
+        <TextView
+            android:id="@+id/textView144"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Comienzo"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView143"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView143"
+            app:layout_constraintTop_toBottomOf="@+id/textView143" />
+
+        <TextView
+            android:id="@+id/textView145"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jue 2 mar a las 21:00"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView144"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView144"
+            app:layout_constraintTop_toBottomOf="@+id/textView144" />
+
+        <TextView
+            android:id="@+id/textView146"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Estadio"
+            android:textColor="#1F9900"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView145"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView145"
+            app:layout_constraintTop_toBottomOf="@+id/textView145" />
+
+        <TextView
+            android:id="@+id/textView147"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camp nou"
+            android:textColor="#779F6D"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView146"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView146"
+            app:layout_constraintTop_toBottomOf="@+id/textView146" />
+
+        <ImageView
+            android:id="@+id/imageView205"
+            android:layout_width="33dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/silvato"
+            app:layout_constraintBottom_toBottomOf="@+id/textView149"
+            app:layout_constraintEnd_toStartOf="@+id/textView148"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView148"
+            app:layout_constraintVertical_bias="0.52" />
+
+        <TextView
+            android:id="@+id/textView148"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Árbitro"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textView147"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView147"
+            app:layout_constraintTop_toBottomOf="@+id/textView147" />
+
+        <TextView
+            android:id="@+id/textView149"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mateu Lahoz"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView148"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView148"
+            app:layout_constraintTop_toBottomOf="@+id/textView148" />
+
+        <TextView
+            android:id="@+id/textView150"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="Notificaciones"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/botonNotificaciones"
+            app:layout_constraintStart_toStartOf="@+id/botonNotificaciones"
+            app:layout_constraintTop_toBottomOf="@+id/botonNotificaciones" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
