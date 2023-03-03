@@ -12,6 +12,16 @@
         android:paddingBottom="20dp" >
 
         <ImageButton
+            android:id="@+id/botonMapa"
+            android:layout_width="32dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/mapa"
+            app:layout_constraintEnd_toStartOf="@+id/botonNotificaciones"
+            app:layout_constraintStart_toEndOf="@+id/textView85"
+            app:layout_constraintTop_toBottomOf="@+id/imageView105" />
+
+        <ImageButton
             android:id="@+id/botonNotificaciones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

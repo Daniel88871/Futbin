@@ -17,6 +17,7 @@ import android.widget.ImageButton;
 public class ResultadoPartido extends Fragment {
 
     ImageButton botonNotificaciones;
+    ImageButton botonMap;
     NavController navController;
 
     public ResultadoPartido() {}
@@ -37,13 +38,20 @@ public class ResultadoPartido extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         navController = Navigation.findNavController(view);
-
+        botonMap = view.findViewById(R.id.botonMapa);
         botonNotificaciones = view.findViewById(R.id.botonNotificaciones);
 
         botonNotificaciones.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 navController.navigate(R.id.action_resultadoPartido_to_notificaciones);
+            }
+        });
+
+        botonMap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                navController.navigate(R.id.action_resultadoPartido_to_mapsFragment);
             }
         });
     }
