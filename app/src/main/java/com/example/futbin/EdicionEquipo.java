@@ -36,7 +36,7 @@ public class EdicionEquipo extends Fragment {
 
         navController = Navigation.findNavController(view);
 
-        botonEscogerEquipo = view.findViewById(R.id.botonEquipo2);
+        botonEscogerEquipo = view.findViewById(R.id.botonBarça);
 
         botonEscogerEquipo.setOnClickListener(new View.OnClickListener() {
             @Override
